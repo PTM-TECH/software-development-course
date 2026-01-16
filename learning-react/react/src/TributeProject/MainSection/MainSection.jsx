@@ -3,7 +3,7 @@ import ImageSection from "./ImageSection.jsx";
 
 function MainSection() {
   return (
-    <div className="main">
+    <div className="flex gap-x-4">
       <ImageSection />
       <InfoSection />
     </div>

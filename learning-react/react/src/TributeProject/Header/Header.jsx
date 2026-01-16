@@ -3,7 +3,7 @@ import Description from "./Description.jsx";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="shadow-md my-4 p-6">
       <Title />
       <Description />
     </div>

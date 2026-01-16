@@ -1,8 +1,10 @@
 function History() {
   return (
-    <div>
-      <h3>History</h3>
-      <p>
+    <div className="text-l">
+      <h3>
+        <b>History</b>
+      </h3>
+      <p className="font-sans font-light">
         Nelson Rolihlahla Mandela was born on July 18, 1918, in the village of
         Mvezo, South Africa. He grew up in a society deeply divided by race and
         inequality, which later shaped his commitment to justice and human
