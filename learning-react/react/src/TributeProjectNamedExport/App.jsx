@@ -5,7 +5,8 @@ import Footer from "./Footer/Footer.jsx";
 
 function App() {
   return (
-    <div className="p-4 w-screen h-screen bg-gray-200">
+    <div className="p-4 w-screen h-screen bg-gray-200 overflow-y-auto">
+      <Menu />
       <Header />
       <MainSection />
       <Footer />
