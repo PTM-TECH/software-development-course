@@ -3,16 +3,13 @@ function SingleUser({ name, image, url }) {
     // console.log("Navigate to url", url);
     window.open(url, "_blank");
   };
-  const mouserOver = () => {
-    console.log("mouse over", name);
-  };
+  // const mouserOver = () => {
+  //   console.log("mouse over", name);
+  // };
   return (
-    <div
-      className="w-60 shadow-lg text-black p-5 m-3 "
-      onMouseEnter={mouserOver}
-    >
+    <div className="w-60 shadow-lg text-black p-5 m-3 flex flex-col items-center text-center">
       <div>
-        <img className="rounded-full w-30" src={image} />
+        <img className="rounded-full w-32 h-32 object-cover mb-4" src={image} />
       </div>
       <div className="p-4">
         <div>
